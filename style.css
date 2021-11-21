@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+#nav{
+    width:100%;
+    background-color:blue;
+    height:65px;
+}
+.rimg{
+    width:130px;
+    height:35px;
+    margin-left: 52%;
+   
+}
+.ip{
+    width:100%;
+    height:40px;
+}
+#cont{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    margin-top:-0.5%;
+}
+.login{
+    display: flex;
+   width:20%;
+   justify-content: space-around;
+   margin-top: 0.6%;
+   font-size: 25px;
+}
+.login > div{
+    width:25%
+}
+#ipdiv{
+    width:40%
+}
+.imgdiv{
+    width:25%;
+    /* border: 1px solid black; */
+    margin-right: -8%;
+}
+.login > div:hover{
+    background-color: whitesmoke;
+    text-align: center;
+}
+#afternav{
+    width:100%;
+    background-color: whitesmoke;
+    height: 70px;
+
+}
+#whitenav{
+    width: 90%;;
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    /* margin-top: %;; */    }
+#whitenav > div{
+    width:13%;
+    /* border:1px solid red; */
+    font-size: 20px;
+}
+#mobdiv{
+    width:100%;
+}
+#mobdiv img{
+    width:100%;
+}
+#mobitem{
+    width:100%;
+    background-color:whitesmoke;
+    height: 500px;
+}
+#items{
+    display: flex;
+    width:95%;
+    justify-content: space-around;
+    margin-left: 1%;
+   
+}
+#items img{
+   width:260px;
+   height:300px
+}
+h3{
+   text-align: center;
+   margin-top: 10%;
+}
+.time{
+   margin-left: 2%;
+   margin-bottom: 1.5%;
+   margin-top: 1%;
+}
+.timer{
+    width:400px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
